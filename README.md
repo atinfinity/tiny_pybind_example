@@ -13,7 +13,7 @@ The <https://github.com/pybind/cmake_example> is example of pybind11 with a CMak
 - python3-pip
 - python3-pybind11
 
-## Usage
+## Installation
 
 ```shell
 git clone https://github.com/atinfinity/tiny_pybind_example.git
@@ -34,3 +34,7 @@ tiny_pybind_example.sub(1, 2)
 ### Module needs to link my library
 
 Please see <https://github.com/atinfinity/tiny_pybind_example/tree/use-my-lib>.
+
+### Access NumPy array
+
+Please see <https://github.com/atinfinity/tiny_pybind_example/tree/use-numpy>.
