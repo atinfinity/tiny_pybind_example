@@ -28,3 +28,9 @@ import tiny_pybind_example
 tiny_pybind_example.add(1, 2)
 tiny_pybind_example.sub(1, 2)
 ```
+
+## Tutorial
+
+### Tutorial1 - Module needs to link my library
+
+Please see <https://github.com/atinfinity/tiny_pybind_example/tree/use-my-lib>.
