@@ -3,7 +3,7 @@
 ## Introduction
 
 The <https://github.com/pybind/cmake_example> is example of pybind11 with a CMake-based build system.  
-`tiny_pybind_example` is a simplified version of BBB for learning.
+`tiny_pybind_example` is a simplified version of `cmake_example` for learning.
 
 ## Requirements
 
