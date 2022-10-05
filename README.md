@@ -16,7 +16,7 @@ The <https://github.com/pybind/cmake_example> is example of pybind11 with a CMak
 ## Usage
 
 ```shell
-https://github.com/atinfinity/tiny_pybind_example.git
+git clone https://github.com/atinfinity/tiny_pybind_example.git
 cd tiny_pybind_example
 pip3 install -e .
 ```
