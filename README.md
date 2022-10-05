@@ -29,7 +29,7 @@ tiny_pybind_example.add(1, 2)
 tiny_pybind_example.sub(1, 2)
 ```
 
-## Tutorial
+## Addtional example
 
 ### Module needs to link my library
 
