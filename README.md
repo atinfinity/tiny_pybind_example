@@ -31,7 +31,7 @@ tiny_pybind_example.sub(1, 2)
 
 ## Addtional example
 
-### Module needs to link my library
+### Module needs to link other library
 
 Please see <https://github.com/atinfinity/tiny_pybind_example/tree/use-my-lib>.
 
