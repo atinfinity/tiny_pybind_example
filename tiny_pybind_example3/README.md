@@ -10,7 +10,7 @@ pip3 install -e .
 
 ## Test
 
-Please see [examples/add1d_sample.py](examples/add1d_sample.py).
+Please see [examples/add1d_example.py](examples/add1d_example.py).
 
 ## Reference
 

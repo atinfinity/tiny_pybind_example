@@ -16,29 +16,14 @@ The `tiny_pybind_example` is a simplified version of `cmake_example` for pybind1
 
 ## Example
 
-### Example1: minimul example
+### Example1: Minimul example
 
-#### Install package
+Please see [tiny_pybind_example1](tiny_pybind_example1/README.md).
 
-```shell
-git clone https://github.com/atinfinity/tiny_pybind_example.git
-cd tiny_pybind_example/tiny_pybind_example1
-pip3 install -e .
-```
+### Example2: Module links self library
 
-#### Test
-
-```python
-import tiny_pybind_example
-tiny_pybind_example.add(1, 2)
-tiny_pybind_example.sub(1, 2)
-```
-
-### Example2: Module needs to link other library
-
-Please see <https://github.com/atinfinity/tiny_pybind_example/tree/use-my-lib>.
+Please see [tiny_pybind_example2](tiny_pybind_example2/README.md).
 
 ### Example3: Access NumPy array
 
-Please see <https://github.com/atinfinity/tiny_pybind_example/tree/use-numpy>.
-
+Please see [tiny_pybind_example3](tiny_pybind_example3/README.md).
