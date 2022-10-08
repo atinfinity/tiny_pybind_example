@@ -61,6 +61,7 @@ setup(
     ext_modules=[CMakeExtension("tiny_pybind_example3")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
+    install_requires=["numpy"],
     extras_require={},
     python_requires=">=3.6",
 )
