@@ -3,7 +3,7 @@
 ## Introduction
 
 The <https://github.com/pybind/cmake_example> is example of pybind11 with a CMake-based build system.  
-`tiny_pybind_example` is a simplified version of `cmake_example` for pybind11 learning.
+The `tiny_pybind_example` is a simplified version of `cmake_example` for pybind11 learning.
 
 ## Requirements
 
@@ -12,29 +12,18 @@ The <https://github.com/pybind/cmake_example> is example of pybind11 with a CMak
 - python3-dev
 - python3-pip
 - python3-pybind11
+- NumPy
 
-## Installation
+## Example
 
-```shell
-git clone https://github.com/atinfinity/tiny_pybind_example.git
-cd tiny_pybind_example
-pip3 install -e .
-```
+### Example1: Minimum example
 
-## Test
+Please see [tiny_pybind_example1](tiny_pybind_example1/README.md).
 
-```python
-import tiny_pybind_example
-tiny_pybind_example.add(1, 2)
-tiny_pybind_example.sub(1, 2)
-```
+### Example2: Module links self library
 
-## Addtional example
+Please see [tiny_pybind_example2](tiny_pybind_example2/README.md).
 
-### Module needs to link other library
+### Example3: Access NumPy array
 
-Please see <https://github.com/atinfinity/tiny_pybind_example/tree/use-my-lib>.
-
-### Access NumPy array
-
-Please see <https://github.com/atinfinity/tiny_pybind_example/tree/use-numpy>.
+Please see [tiny_pybind_example3](tiny_pybind_example3/README.md).

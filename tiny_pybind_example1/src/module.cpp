@@ -9,7 +9,7 @@ int add(int i, int j) {
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(tiny_pybind_example, m) {
+PYBIND11_MODULE(tiny_pybind_example1, m) {
     m.doc() = "tiny pybind example module";
     m.def("add", &add, "Add two numbers");
     m.def("sub", [](int i, int j) { return i - j; }, "Subtract two numbers");
