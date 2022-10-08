@@ -26,10 +26,6 @@ class CMakeBuild(build_ext):
         debug = int(os.environ.get("DEBUG", 0)) if self.debug is None else self.debug
         cfg = "Debug" if debug else "Release"
 
-        # CMake lets you override the generator - we need to check this.
-        # Can be set with Conda-Build, for example.
-        cmake_generator = os.environ.get("CMAKE_GENERATOR", "")
-
         # Set Python_EXECUTABLE instead if you use PYBIND11_FINDPYTHON
         # PACKAGE_VERSION_INFO shows you how to pass a value into the C++ code
         # from Python.
@@ -58,11 +54,11 @@ class CMakeBuild(build_ext):
 # The information here can also be placed in setup.cfg - better separation of
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
-    name="tiny_pybind_example",
+    name="tiny_pybind_example1",
     version="0.0.1",
     description="A test project using pybind11 and CMake",
     long_description="",
-    ext_modules=[CMakeExtension("tiny_pybind_example")],
+    ext_modules=[CMakeExtension("tiny_pybind_example1")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
     extras_require={},
