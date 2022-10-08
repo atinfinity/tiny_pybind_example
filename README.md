@@ -16,7 +16,7 @@ The `tiny_pybind_example` is a simplified version of `cmake_example` for pybind1
 
 ## Example
 
-### Example1: Minimul example
+### Example1: Minimum example
 
 Please see [tiny_pybind_example1](tiny_pybind_example1/README.md).
 

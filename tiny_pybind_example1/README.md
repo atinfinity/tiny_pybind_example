@@ -1,4 +1,4 @@
-# Example1: Minimul example
+# Example1: Minimum example
 
 ## Install package
 
