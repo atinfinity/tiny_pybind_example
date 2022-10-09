@@ -27,3 +27,7 @@ Please see [tiny_pybind_example2](tiny_pybind_example2/README.md).
 ### Example3: Access NumPy array
 
 Please see [tiny_pybind_example3](tiny_pybind_example3/README.md).
+
+### Example4: Handle C++ exception
+
+Please see [tiny_pybind_example4](tiny_pybind_example4/README.md).
