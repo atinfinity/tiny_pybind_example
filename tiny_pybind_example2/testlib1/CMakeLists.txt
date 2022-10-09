@@ -9,4 +9,4 @@ if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "Release" CACHE STRING "" FORCE)
 endif()
 
-add_library(testlib1 SHARED src/testlib1.cpp)
+add_library(${PROJECT_NAME} SHARED src/testlib1.cpp)
