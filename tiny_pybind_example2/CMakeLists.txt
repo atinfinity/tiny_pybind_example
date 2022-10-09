@@ -3,7 +3,7 @@ project(tiny_pybind_example2)
 
 add_subdirectory(testlib1)
 
-find_package(pybind11)
+find_package(pybind11 REQUIRED)
 pybind11_add_module(${PROJECT_NAME} src/module.cpp)
 
 include_directories(testlib1/include)
