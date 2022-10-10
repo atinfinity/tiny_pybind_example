@@ -8,7 +8,7 @@ cd tiny_pybind_example/tiny_pybind_example2
 pip3 install -e .
 ```
 
-## Test
+## Example
 
 ```python
 import tiny_pybind_example2

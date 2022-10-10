@@ -8,7 +8,7 @@ cd tiny_pybind_example/tiny_pybind_example4
 pip3 install -e .
 ```
 
-## Test
+## Example
 
 ```python
 import tiny_pybind_example4
@@ -19,6 +19,14 @@ try:
 except:
     print(traceback.format_exc())
 ```
+
+## Test
+
+```shell
+pytest -v tests
+```
+
+Please see [tests](tests).
 
 ## Reference
 

@@ -13,6 +13,8 @@ The `tiny_pybind_example` is a simplified version of `cmake_example` for pybind1
 - python3-pip
 - python3-pybind11
 - NumPy
+- pytest
+  - for test
 
 ## Example
 
