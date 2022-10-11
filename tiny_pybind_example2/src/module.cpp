@@ -4,11 +4,11 @@
 #define STRINGIFY(x) #x
 #define MACRO_STRINGIFY(x) STRINGIFY(x)
 
+namespace py = pybind11;
+
 void call() {
     func1();
 }
-
-namespace py = pybind11;
 
 PYBIND11_MODULE(tiny_pybind_example2, m) {
     m.doc() = "tiny pybind example module";

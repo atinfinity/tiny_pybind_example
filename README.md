@@ -33,3 +33,7 @@ Please see [tiny_pybind_example3](tiny_pybind_example3/README.md).
 ### Example4: Handle C++ exception
 
 Please see [tiny_pybind_example4](tiny_pybind_example4/README.md).
+
+### Example5: Uses keyword arguments
+
+Please see [tiny_pybind_example5](tiny_pybind_example5/README.md).
